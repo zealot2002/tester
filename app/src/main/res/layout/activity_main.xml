@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    >
+    <com.zzy.tester.widgets.MyLinerlayout
+        android:id="@+id/llRoot"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:clickable="true"
+        >
+        <com.zzy.tester.widgets.MyButton
+            android:id="@+id/btnOk"
+            android:layout_width="600px"
+            android:layout_height="300px"
+            android:layout_gravity="center_horizontal"
+            android:text="MyButton"
+            android:clickable="true"
+            />
+
+    </com.zzy.tester.widgets.MyLinerlayout>
+</LinearLayout>
